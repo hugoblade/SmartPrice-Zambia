@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>SmartPrice Zambia</title>
+</head>
+
+<body>
+    <h1>SmartPrice Zambia</h1>
+    <button onclick="getCheapest()">Get Cheapest Price</button>
+    <button onclick="getAverage()">Get Average Price</button>
+    <h3 id="result"></h3>
+
+    <script>
+        async function getCheapest() {
+            const res = await fetch('/api/compare/cheapest');
+            document.getElementById('result').innerText = await res.text();
+        }
+
+        async function getAverage() {
+            const res = await fetch('/api/compare/average');
+            document.getElementById('result').innerText = await res.text();
+        }
+    </script>
+</body>
+
+</html>
