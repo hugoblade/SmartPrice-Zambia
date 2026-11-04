@@ -19,8 +19,10 @@ Consumers in Zambia often spend significant time and money travelling to differe
 *   `Main`: The Javalin server setup and REST API endpoints.
 
 ## 4. Team Members
-*   Gaston Mylu Mulundu (2410364)
-*   Phil Mujala (2410218)
-*   Thokozile Zulu (2200791)
-*   Chandi Chileshe (2410226)
-*   Limpo Mwenya Musonda (2420990)
+| Full Name | Student Number |
+|-----------|----------------|
+| Thokozile Zulu | 2200791 |
+| Limpo Mwenya Musonda | 2420990 |
+| Chandi Chileshe | 2410226 |
+| Gaston Mylu Mulundu | 2410364 |
+| Phil Mujala | 2410218 
