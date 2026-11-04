@@ -12,6 +12,7 @@ public class Main {
         prices.put("Shoprite", 35.00);
         prices.put("Pick n Pay", 30.00);
         prices.put("Choppies", 32.00);
+        prices.put("Zambeef", 50.00);
 
         Javalin app = Javalin.create(config -> {
             config.staticFiles.add("public", Location.EXTERNAL);
